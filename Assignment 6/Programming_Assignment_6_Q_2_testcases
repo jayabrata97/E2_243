@@ -1,0 +1,94 @@
+Programming assignment  - 6  : Question - 2
+
+2)a)
+% Test case 0 - empty input A
+% x = [2 0 6 8]';
+% IsLinearCombination([],x)
+
+% Test case 1 - empty input x
+% a1 = [1 0 3 4]';
+% a2 = [0 6 7 8]';
+% A = [a1 a2]
+% IsLinearCombination(A,[])
+
+% Test case 2 - check whether x is in R^m
+% a1 = [1 0 3 4]';
+% a2 = [0 6 7 8]';
+% A = [a1 a2]
+% x = [1 2 4]
+% IsLinearCombination(A,x)
+
+% % Test case - 3 (Expected: 1)
+% a1 = [1 0 3 4]';
+% a2 = [0 6 7 8]';
+% A = [a1 a2]
+% x = [2 0 6 8]';
+% IsLinearCombination(A,x)
+
+% % Test case - 4 (Expected: 1)
+% a1 = [1 0 3 4]';
+% a2 = [0 6 7 8]';
+% A = [a1 a2]
+% alpha = 5;
+% beta = 6;
+% x = alpha*a1+beta*a2;
+% IsLinearCombination(A,x)
+
+% % Test case - 5 (Expected: 0)
+% a1 = [1 0 3 4]';
+% a2 = [0 6 7 8]';
+% A = [a1 a2]
+% alpha = 5;
+% beta = 6;
+% b = [2 3 1 1]';
+% IsLinearCombination(A,b)
+
+2)b)
+% Test case 0 - empty input A
+%GetLinIndepVectors([])
+
+% % Test case - 2 (Expected: 1)
+% a1 = [1 0 3 4]';
+% a2 = [0 6 7 8]';
+% A = [a1 a2]
+% GetLinIndepVectors(A)
+% % Expected output
+% %      1     0
+% %      0     6
+% %      3     7
+% %      4     8
+
+% % Test case - 3 (Expected: 0)
+% a1 = [1 0 3 4]';
+% a2 = [0 6 7 8]';
+% alpha = 5;
+% beta = 6;
+% a3 = alpha*a1+beta*a2;
+% A = [a1 a2 a3]
+% GetLinIndepVectors(A)
+% %Expected output
+% %      1     0
+% %      0     6
+% %      3     7
+% %      4     8
+
+
+2)c)
+% Test case 0 - empty input A
+% [V,Q] = GramSchmidt([])
+
+% % Test case - 1 (program should say 'they are not lineary indepent')
+% a1 = [1 1 1]';
+% a2 = [1 1 1]';
+% a3 = [1 1 1]';
+% A = [a1 a2 a3]
+% [V,Q] = GramSchmidt(A)
+% disp('program should say that the rows are not lineary independent');
+
+% % Test case - 2
+% a1 = [3 3 6]';
+% a2 = [1 1 -7]';
+% a3 = [3 -1 8]';
+% A = [a1 a2 a3]
+% [V,Q] = GramSchmidt(A)
+

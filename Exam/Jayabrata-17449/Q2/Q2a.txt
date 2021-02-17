@@ -1,0 +1,48 @@
+Q2: 
+input:
+
+A =
+
+   -1.1480    2.5855   -0.0825
+    0.1049   -0.6669   -1.9330
+    0.7223    0.1873   -0.4390
+
+output:
+eval =
+
+  -2.3137 + 0.0000i
+   0.0300 + 1.3603i
+   0.0300 - 1.3603i
+unique evals are 
+uni =
+
+   0.0300 - 1.3603i
+   0.0300 + 1.3603i
+  -2.3137 + 0.0000i
+
+All eigen values have algabraic multiplicity of 1
+
+2nd set of input:
+A =
+
+   -1.7947    0.1001   -0.6003
+    0.8404   -0.5445    0.4900
+   -0.8880    0.3035    0.7394
+
+output:
+eval =
+
+   -2.0923
+   -0.4944
+    0.9868
+
+unique eigen values are:
+
+uni =
+
+   -2.0923
+   -0.4944
+    0.9868
+
+All eigen values have algabraic multiplicity of 1
+

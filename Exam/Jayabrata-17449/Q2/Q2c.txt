@@ -1,0 +1,45 @@
+Q2c:
+input: 
+A =
+
+   -0.1922   -0.2490    1.2347
+   -0.2741   -1.0642   -0.2296
+    1.5301    1.6035   -1.5062
+
+output:
+y =
+
+     3
+
+Geometric multiplicity is 3
+
+d =
+
+     1
+
+A is diagonalizable
+
+second set input:
+
+A =
+
+   -0.4446   -0.2612   -1.2507
+   -0.1559    0.4434   -0.9480
+    0.2761    0.3919   -0.7411
+
+output:
+y =
+
+     3
+
+Geometric multiplicity is 3
+
+d =
+
+     1
+
+A is diagonalizable
+
+d =
+
+     1
